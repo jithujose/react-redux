@@ -39,7 +39,6 @@ class PostForm extends Component {
     return (
       <div>
         <h1>Add Post</h1>
-        <pre style={{color: 'red'}}>23:14</pre>
         <form onSubmit={this.onSubmit}>
           <div>
             <label>Title:</label><br/>
